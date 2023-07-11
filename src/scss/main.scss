@@ -6,4 +6,13 @@
 
 // подключения компонентов страницы
 @import "./components/nav";
+@import "./components/btn";
+
+.header-hero {
+  background-image: url(../img/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @import "./components/header";
+@import "./components/hero";
