@@ -1,0 +1,13 @@
+.nav {
+  &__list {
+    @include flex-all-sb;
+
+    gap: 51px;
+  }
+
+  &__link {
+    color: var(--light-color);
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
