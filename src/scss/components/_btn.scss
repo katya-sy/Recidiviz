@@ -9,9 +9,19 @@
   letter-spacing: 0.02px;
   color: var(--btn-text-color);
   border: 1px solid var(--btn-border-color);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: var(--btn-text-color);
+    color: var(--light-color);
+  }
 
   &--light {
     border: 1px solid rgba(255, 255, 255, 0.30);
     color: var(--light-color);
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.30);
+    }
   }
 }
