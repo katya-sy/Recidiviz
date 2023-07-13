@@ -1,0 +1,54 @@
+.press {
+  padding-top: 80px;
+  padding-bottom: 132px;
+
+  &__top {
+    @include flex-all-sb;
+
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    color: var(--title-color);
+    font-family: var(--accent-font-family);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 52px 32px;
+  }
+
+  &__item {
+    grid-column: 4 span;
+    padding-top: 16px;
+    border-top: 1px solid rgba(53, 83, 98, 0.30);;
+  }
+
+  &__head {
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: rgba(53, 83, 98, 0.60);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    margin: 0;
+    color: var(--btn-text-color);
+    font-family: Public Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+  }
+}
