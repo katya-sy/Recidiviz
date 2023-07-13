@@ -20,5 +20,10 @@
     color: var(--light-color);
     font-size: 12px;
     line-height: 16px;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
