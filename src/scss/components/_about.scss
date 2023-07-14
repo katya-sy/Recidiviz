@@ -40,6 +40,10 @@
       @include big-tablet {
         margin-left: 260px;
       }
+
+      @include small-tablet {
+        display: none;
+      }
     }
   }
 

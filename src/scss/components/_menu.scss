@@ -6,6 +6,10 @@
   &__nav {
     display: flex;
     gap: 32px;
+
+    @include small-tablet {
+      flex-wrap: wrap;
+    }
   }
 
   &__list {
@@ -13,6 +17,10 @@
 
     &:last-child {
       margin-left: auto;
+
+      @include small-tablet {
+        margin-left: 0;
+      }
     }
   }
 

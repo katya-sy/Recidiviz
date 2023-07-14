@@ -7,6 +7,17 @@
     @include flex;
     align-items: flex-end;
     justify-content: space-between;
+
+    @include small-tablet {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &__logo {
+    @include small-tablet {
+      margin-bottom: 20px;
+    }
   }
 
   &__menu {

@@ -3,6 +3,10 @@
     @include flex-all-sb;
 
     gap: 51px;
+
+    @include small-tablet {
+      gap: 30px;
+    }
   }
 
   &__link {

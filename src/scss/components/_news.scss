@@ -6,6 +6,10 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
+
+    @include small-tablet {
+      row-gap: 50px;
+    }
   }
 
   &__item {
@@ -36,6 +40,10 @@
 
     @include big-tablet {
       grid-column: 4 span;
+    }
+
+    @include small-tablet {
+      grid-column: 6 span;
     }
   }
 

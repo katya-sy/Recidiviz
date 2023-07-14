@@ -33,6 +33,11 @@
     @include big-desktop {
       gap: 6px;
     }
+
+    @include small-tablet {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__item {

@@ -40,6 +40,10 @@
 
     &-list {
       @include flex-all-sb;
+
+      @include small-tablet {
+        flex-wrap: wrap;
+      }
     }
 
     &-item {
@@ -62,6 +66,16 @@
 
         @include big-tablet{
           width: 100px;
+        }
+
+        @include small-tablet {
+          width: 165px;
+        }
+      }
+
+      @include small-tablet {
+        &:nth-child(-n+4) {
+          margin-bottom: 30px;
         }
       }
     }

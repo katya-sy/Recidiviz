@@ -16,6 +16,10 @@
   @include big-tablet {
     background-position: top right -340px;
   }
+
+  @include small-tablet {
+    background-position: top left;
+  }
 }
 
 @import "./components/header";

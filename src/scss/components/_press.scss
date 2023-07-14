@@ -31,6 +31,10 @@
     @include big-tablet {
       grid-column: 6 span;
     }
+
+    @include small-tablet {
+      grid-column: 12 span;
+    }
   }
 
   &__head {
