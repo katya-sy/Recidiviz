@@ -3,6 +3,7 @@
 
   &__container {
     @include flex-all-sb;
+    gap: 2px;
   }
 
   &__title,
@@ -28,9 +29,13 @@
     @include flex-all-sb;
 
     gap: 13px;
+
+    @include big-desktop {
+      gap: 6px;
+    }
   }
 
   &__item {
-    border-radius: 3px
+    border-radius: 3px;
   }
 }

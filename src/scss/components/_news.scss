@@ -24,6 +24,10 @@
       width: 165px;
       height: 1px;
       background: rgba(53, 83, 98, 0.30);
+
+      @include big-desktop{
+        width: 120px;
+      }
     }
   }
 

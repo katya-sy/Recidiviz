@@ -34,5 +34,10 @@
 
   &__image {
     margin-top: 9px;
+    margin-right: 99px;
+
+    @include big-desktop {
+      margin-right: 0;
+    }
   }
 }

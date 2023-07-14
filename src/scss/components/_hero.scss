@@ -55,6 +55,10 @@
         width: 165px;
         height: 1px;
         background: rgba(255, 255, 255, 0.60);
+
+        @include big-desktop{
+          width: 120px;
+        }
       }
     }
   }
