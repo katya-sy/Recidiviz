@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 63px;
+  background-color: #000F0F;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__copyright {
+    margin-top: 5px;
+    max-width: 257px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  &__text {
+    display: inline;
+    color: #E5ECEC;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+}
