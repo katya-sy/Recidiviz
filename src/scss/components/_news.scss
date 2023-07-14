@@ -10,6 +10,10 @@
     @include small-tablet {
       row-gap: 50px;
     }
+
+    @include big-desktop{
+      column-gap: 10px;
+    }
   }
 
   &__item {
@@ -29,12 +33,16 @@
       height: 1px;
       background: rgba(53, 83, 98, 0.30);
 
-      @include big-desktop{
+      @include big-desktop {
         width: 120px;
       }
 
       @include big-tablet {
         width: 165px;
+      }
+
+      @include mobile {
+        width: 120px;
       }
     }
 
@@ -44,10 +52,6 @@
 
     @include small-tablet {
       grid-column: 6 span;
-    }
-
-    @include mobile {
-      grid-column: 12 span;
     }
   }
 
