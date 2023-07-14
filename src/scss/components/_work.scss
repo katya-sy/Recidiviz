@@ -1,0 +1,38 @@
+.work {
+  padding-top: 146px;
+  padding-bottom: 133px;
+  background-color: #001F1F;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    max-width: 305px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 43px;
+    color: var(--work-color);
+    font-family: var(--accent-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 1.2px;
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: 37px;
+    color: var(--work-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155%;
+  }
+
+  &__image {
+    margin-top: 9px;
+  }
+}
