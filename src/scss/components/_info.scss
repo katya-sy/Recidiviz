@@ -17,6 +17,10 @@
     @include big-tablet {
       height: 400px;
     }
+
+    @include mobile {
+      height: 250px;
+    }
   }
 
   &__container {
@@ -44,6 +48,10 @@
       grid-column: 12 span;
       max-width: none;
     }
+
+    @include mobile {
+      max-width: 280px;
+    }
   }
 
   &__list {
@@ -54,6 +62,10 @@
 
     @include big-desktop {
       grid-column: 12 span;
+    }
+
+    @include mobile {
+      max-width: 270px;
     }
   }
 

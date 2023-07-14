@@ -4,6 +4,11 @@
   &__container {
     @include flex-all-sb;
     gap: 2px;
+
+    @include mobile {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__title,

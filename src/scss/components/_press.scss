@@ -6,6 +6,10 @@
     @include flex-all-sb;
 
     margin-bottom: 24px;
+
+    @include mobile {
+      flex-wrap: wrap;
+    }
   }
 
   &__title {
@@ -34,6 +38,10 @@
 
     @include small-tablet {
       grid-column: 12 span;
+    }
+
+    @include mobile {
+      max-width: 260px;
     }
   }
 

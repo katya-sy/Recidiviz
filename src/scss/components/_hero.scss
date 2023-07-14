@@ -12,6 +12,10 @@
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 1.2px;
+
+    @include mobile {
+      font-size: 28px;
+    }
   }
 
   &__desc {
@@ -75,6 +79,12 @@
 
       @include small-tablet {
         &:nth-child(-n+4) {
+          margin-bottom: 30px;
+        }
+      }
+
+      @include mobile {
+        &:not(:last-child) {
           margin-bottom: 30px;
         }
       }

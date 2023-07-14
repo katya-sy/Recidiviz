@@ -6,11 +6,19 @@
   &__container {
     display: flex;
     justify-content: space-between;
+
+    @include mobile {
+      flex-wrap: wrap;
+    }
   }
 
   &__logo {
     width: 24px;
     height: 24px;
+
+    @include mobile {
+      margin-bottom: 30px;
+    }
   }
 
   &__copyright {
@@ -20,6 +28,10 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 8px;
+
+    @include mobile {
+      justify-content: flex-start;
+    }
   }
 
   &__text {

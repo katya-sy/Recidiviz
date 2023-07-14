@@ -48,6 +48,10 @@
   &__right {
     display: flex;
     gap: 8px;
+
+    @include mobile {
+      flex-wrap: wrap;
+    }
   }
 
   &__img {

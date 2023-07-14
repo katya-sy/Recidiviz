@@ -45,6 +45,10 @@
     @include small-tablet {
       grid-column: 6 span;
     }
+
+    @include mobile {
+      grid-column: 12 span;
+    }
   }
 
   &__text {
