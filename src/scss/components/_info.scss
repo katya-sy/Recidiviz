@@ -13,6 +13,10 @@
     @include big-desktop {
       margin-bottom: 0;
     }
+
+    @include big-tablet {
+      height: 400px;
+    }
   }
 
   &__container {
@@ -35,6 +39,11 @@
     @include big-desktop {
       margin-bottom: 20px;
     }
+
+    @include big-tablet {
+      grid-column: 12 span;
+      max-width: none;
+    }
   }
 
   &__list {
@@ -56,7 +65,15 @@
     }
 
     @include big-desktop {
-      max-width: 430px;
+      max-width: 400px;
+    }
+
+    @include big-tablet {
+      max-width: none;
+
+      &:not(:last-child) {
+        margin-bottom: 36px;
+      }
     }
   }
 

@@ -28,6 +28,14 @@
       @include big-desktop{
         width: 120px;
       }
+
+      @include big-tablet {
+        width: 165px;
+      }
+    }
+
+    @include big-tablet {
+      grid-column: 4 span;
     }
   }
 

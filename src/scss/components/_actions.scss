@@ -3,6 +3,12 @@
 
   background-color: var(--dark-background-color);
 
+  &__image {
+    @include big-tablet {
+      display: none;
+    }
+  }
+
   &__text {
     max-width: 542px;
 
@@ -25,5 +31,10 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 160%;
+  }
+
+
+  @include big-tablet {
+    padding: 80px 0;
   }
 }

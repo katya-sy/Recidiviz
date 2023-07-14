@@ -39,5 +39,10 @@
     @include big-desktop {
       margin-right: 0;
     }
+
+    @include big-tablet {
+      width: 40%;
+      height: auto;
+    }
   }
 }

@@ -36,6 +36,10 @@
       width: 176px;
       height: 1px;
       background: var(--btn-border-color);
+
+      @include big-tablet {
+        margin-left: 260px;
+      }
     }
   }
 

@@ -26,7 +26,11 @@
   &__item {
     grid-column: 4 span;
     padding-top: 16px;
-    border-top: 1px solid rgba(53, 83, 98, 0.30);;
+    border-top: 1px solid rgba(53, 83, 98, 0.30);
+
+    @include big-tablet {
+      grid-column: 6 span;
+    }
   }
 
   &__head {

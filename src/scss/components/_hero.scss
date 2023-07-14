@@ -59,6 +59,10 @@
         @include big-desktop{
           width: 120px;
         }
+
+        @include big-tablet{
+          width: 100px;
+        }
       }
     }
   }
